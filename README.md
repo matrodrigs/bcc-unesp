@@ -1,9 +1,20 @@
-# 🎓 Bacharelado em Ciência da Computação (BCC) - Projetos e Exercícios
+<div align="center">
+  
+[![Stars](https://img.shields.io/github/stars/matrodrigs/bcc-unesp?style=for-the-badge&color=007ec6&logoColor=white)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-97ca00?style=for-the-badge)]()
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-555555?style=for-the-badge&logo=linkedin)]()
 
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green.svg)]()
-[![Linguagens](https://img.shields.io/badge/Linguagens-C%20%7C%20Python%20%7C%20Java-blue.svg)]()
-[![Localização](https://img.shields.io/badge/Localiza%C3%A7%C3%A3o-Bauru%2C%20SP-red.svg)]()
+<br>
 
-Bem-vindo ao meu repositório universitário! 🚀 
+<img src="./logo-unesp.png" /> <img src="./logo-fc.png" />
 
-Este espaço é dedicado a documentar minha jornada no curso de Ciência da Computação. Aqui você encontrará códigos, listas de exercícios e trabalhos acadêmicos das disciplinas que estou cursando ao longo da graduação.
+# BCC
+**A repository to store exercises, works, and other materials from the school subjects during my Bachelor of Computer Science course at UNESP Bauru.**
+
+</div>
+
+<br>
+
+## 📚 About This Repository
+
+This workspace serves as a digital archive of my academic journey. It contains code and projects highly organized by discipline to facilitate navigation and review.
