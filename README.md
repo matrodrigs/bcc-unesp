@@ -2,7 +2,7 @@
   
 [![Stars](https://img.shields.io/github/stars/matrodrigs/bcc-unesp?style=for-the-badge&color=007ec6&logoColor=white)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-97ca00?style=for-the-badge)]()
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-555555?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mat-rodrigues/)
+[![LinkedIn](https://img.shields.io/badge/-LINKEDIN-555555?style=for-the-badge)](https://www.linkedin.com/in/mat-rodrigues/)
 
 <br>
 
