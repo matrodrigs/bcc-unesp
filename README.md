@@ -1,6 +1,6 @@
 <div align="center">
   
-[![Stars](https://img.shields.io/github/stars/matrodrigs/bcc-unesp?style=for-the-badge&color=007ec6&logoColor=white)]()
+[![Stars](https://img.shields.io/github/stars/matrodrigs/bcc-unesp?style=for-the-badge&color=007ec6&logoColor=white&cache=1)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-97ca00?style=for-the-badge)]()
 [![LinkedIn](https://img.shields.io/badge/-LINKEDIN-555555?style=for-the-badge)](https://www.linkedin.com/in/mat-rodrigues/)
 
