@@ -1,0 +1,33 @@
+# Java
+*.class
+hs_err_pid*
+replay_pid*
+build/
+out/
+target/
+bin/
+
+# C e C++
+*.o
+*.obj
+*.exe
+*.out
+
+# IDEs e editores
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Arquivos temporários do HSQLDB
+**/db/dados/*.backup
+**/db/dados/*.data
+**/db/dados/*.lck
+**/db/dados/*.log
+**/db/dados/*.tmp

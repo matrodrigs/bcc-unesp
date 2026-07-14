@@ -1,6 +1,0 @@
-Observação: o projeto usa HSQLDB local através do arquivo db/hsqldb.jar.
-Essa versão do HSQLDB foi compilada para Java 11, então o projeto deve ser executado com JDK 11 ou superior.
-
-javac -cp ".;lib/lombok.jar;db/hsqldb.jar" Main.java core\*.java db\*.java db\dao\*.java gui\*.java gui\tabs\*.java models\*.java
-
-java -cp ".;lib/lombok.jar;db/hsqldb.jar" Main
