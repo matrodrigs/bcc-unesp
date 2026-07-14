@@ -2,7 +2,7 @@
 
 <img src="logo-unesp.png" alt="Logotipo da UNESP" width="170">
 
-# BCC — UNESP Bauru
+# BCC · UNESP Bauru
 
 Exercícios, listas e projetos desenvolvidos durante a graduação em Ciência da Computação.
 
