@@ -23,8 +23,15 @@ Este repositório funciona como um arquivo acadêmico pessoal da graduação em 
 
 | Disciplina | Linguagem | Conteúdo disponível |
 | --- | --- | --- |
+| [Arquitetura de Computadores](arquitetura-de-computadores) | Hardware digital | 1 projeto de computador com 8031 |
 | [Estrutura de Dados I](estrutura-de-dados-1) | C | 2 listas, 12 exercícios |
 | [Programação Orientada a Objetos](programacao-orientada-a-objetos) | Java | 8 listas, aplicações de terminal, Swing e persistência |
+
+### Arquitetura de Computadores
+
+| Projeto | Conteúdo |
+| --- | --- |
+| [Computador com 8031](arquitetura-de-computadores/projeto-computador-8031.pdf) | Diagrama elétrico com memória, latches, displays, teclado matricial e LCD |
 
 ### Estrutura de Dados I
 
@@ -47,6 +54,12 @@ Este repositório funciona como um arquivo acadêmico pessoal da graduação em 
 | [Lista 08](programacao-orientada-a-objetos/lista-08) | Persistência com HSQLDB, DAO e interface gráfica |
 
 ## Projetos em destaque
+
+### Computador com 8031
+
+Diagrama elétrico de um computador baseado no microcontrolador 8031, incluindo a interface com memórias, displays de sete segmentos, teclado matricial e LCD.
+
+[`arquitetura-de-computadores/projeto-computador-8031.pdf`](arquitetura-de-computadores/projeto-computador-8031.pdf)
 
 ### Students Manager
 
@@ -103,6 +116,8 @@ No Windows, execute o binário com `.\ex1.exe`. Alguns exercícios usam APIs esp
 
 ```text
 bcc-unesp/
+├── arquitetura-de-computadores/
+│   └── projeto-computador-8031.pdf
 ├── estrutura-de-dados-1/
 │   ├── lista-01/
 │   └── lista-02/
@@ -119,6 +134,7 @@ As pastas de disciplinas e listas usam nomes em `kebab-case`, sem espaços ou ac
 
 ## Tecnologias e conceitos
 
+- **Hardware digital:** microcontrolador 8031, memória, latches, decodificação de endereços e interfaces de entrada e saída.
 - **C:** ponteiros, alocação dinâmica, listas, pilhas, filas, deques e estruturas heterogêneas.
 - **Java:** orientação a objetos, herança, polimorfismo, exceções, coleções e streams.
 - **Desktop:** interfaces e eventos com Java Swing.
