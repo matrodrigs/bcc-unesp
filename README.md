@@ -1,37 +1,20 @@
-<div align="center">
-
-<img src="logo-unesp.png" alt="Logotipo da UNESP" width="170">
-
 # BCC · UNESP Bauru
 
-Exercícios, listas e projetos desenvolvidos durante a graduação em Ciência da Computação.
+<p><samp>Ciência da Computação · Arquivo acadêmico</samp></p>
 
-[![Java](https://img.shields.io/badge/Java-83%20arquivos-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](programacao-orientada-a-objetos)
-[![C](https://img.shields.io/badge/C-12%20exerc%C3%ADcios-A8B9CC?style=for-the-badge&logo=c&logoColor=white)](estrutura-de-dados-1)
-[![UNESP](https://img.shields.io/badge/UNESP-Bauru-008DD2?style=for-the-badge)](https://www.fc.unesp.br/)
-[![Licença MIT](https://img.shields.io/badge/Licen%C3%A7a-MIT-2EA44F?style=for-the-badge)](LICENSE)
+Exercícios, listas e projetos desenvolvidos durante a graduação na **UNESP, campus de Bauru**.
+O conteúdo acompanha o estudo de hardware digital, estruturas de dados em C e orientação a
+objetos em Java, incluindo interfaces Swing e persistência com HSQLDB.
 
-[Disciplinas](#disciplinas) · [Projetos em destaque](#projetos-em-destaque) · [Como executar](#como-executar) · [Organização](#organização)
-
-</div>
-
-## Sobre o repositório
-
-Este repositório funciona como um arquivo acadêmico pessoal da graduação em **Ciência da Computação na UNESP, campus de Bauru**. O conteúdo está separado por disciplina e lista para facilitar a navegação, a revisão dos conceitos e o acompanhamento da evolução dos projetos.
+[Disciplinas](#disciplinas) · [Projetos em destaque](#projetos-em-destaque) · [Como executar](#como-executar)
 
 ## Disciplinas
 
 | Disciplina | Linguagem | Conteúdo disponível |
 | --- | --- | --- |
-| [Arquitetura de Computadores](arquitetura-de-computadores) | Hardware digital | 1 projeto de computador com 8031 |
+| [Arquitetura de Computadores](arquitetura-de-computadores) | Hardware digital | [Diagrama de computador com 8031](arquitetura-de-computadores/projeto-computador-8031.pdf) |
 | [Estrutura de Dados I](estrutura-de-dados-1) | C | 2 listas, 12 exercícios |
 | [Programação Orientada a Objetos](programacao-orientada-a-objetos) | Java | 8 listas, aplicações de terminal, Swing e persistência |
-
-### Arquitetura de Computadores
-
-| Projeto | Conteúdo |
-| --- | --- |
-| [Computador com 8031](arquitetura-de-computadores/projeto-computador-8031.pdf) | Diagrama elétrico com memória, latches, displays, teclado matricial e LCD |
 
 ### Estrutura de Dados I
 
@@ -41,6 +24,8 @@ Este repositório funciona como um arquivo acadêmico pessoal da graduação em 
 | [Lista 02](estrutura-de-dados-1/lista-02) | Pilhas, filas, deques, escalonamento, expressões e simulações |
 
 ### Programação Orientada a Objetos
+
+Material de apoio: [apostila de POO em Java](programacao-orientada-a-objetos/apostila-poo-java.pdf).
 
 | Lista | Tópicos e projetos |
 | --- | --- |
@@ -54,12 +39,6 @@ Este repositório funciona como um arquivo acadêmico pessoal da graduação em 
 | [Lista 08](programacao-orientada-a-objetos/lista-08) | Persistência com HSQLDB, DAO e interface gráfica |
 
 ## Projetos em destaque
-
-### Computador com 8031
-
-Diagrama elétrico de um computador baseado no microcontrolador 8031, incluindo a interface com memórias, displays de sete segmentos, teclado matricial e LCD.
-
-[`arquitetura-de-computadores/projeto-computador-8031.pdf`](arquitetura-de-computadores/projeto-computador-8031.pdf)
 
 ### Students Manager
 
@@ -92,7 +71,7 @@ cd bcc-unesp
 
 ### Exemplo em Java
 
-Cada lista é independente. Entre na pasta que contém a classe desejada antes de compilar:
+Cada lista é independente. A partir da raiz do repositório, entre na pasta da classe desejada:
 
 ```bash
 cd programacao-orientada-a-objetos/lista-03
@@ -104,6 +83,8 @@ Projetos com pacotes ou bibliotecas possuem comandos próprios. Consulte o READM
 
 ### Exemplo em C
 
+A partir da raiz do repositório:
+
 ```bash
 cd estrutura-de-dados-1/lista-01
 gcc Ex1.c -o ex1
@@ -114,33 +95,16 @@ No Windows, execute o binário com `.\ex1.exe`. Alguns exercícios usam APIs esp
 
 ## Organização
 
-```text
-bcc-unesp/
-├── arquitetura-de-computadores/
-│   └── projeto-computador-8031.pdf
-├── estrutura-de-dados-1/
-│   ├── lista-01/
-│   └── lista-02/
-├── programacao-orientada-a-objetos/
-│   ├── lista-01/
-│   ├── ...
-│   └── lista-08/
-├── logo-unesp.png
-├── LICENSE
-└── README.md
-```
+Use as tabelas de disciplinas para chegar à lista ou ao projeto desejado. As pastas seguem
+`disciplina/lista/projeto`, quando há um projeto completo; exercícios avulsos ficam diretamente
+na lista. Cada programa é compilado separadamente.
 
-As pastas de disciplinas e listas usam nomes em `kebab-case`, sem espaços ou acentos. Os nomes das classes e dos projetos seguem as convenções das linguagens e foram preservados para não quebrar imports ou pontos de entrada.
-
-## Tecnologias e conceitos
-
-- **Hardware digital:** microcontrolador 8031, memória, latches, decodificação de endereços e interfaces de entrada e saída.
-- **C:** ponteiros, alocação dinâmica, listas, pilhas, filas, deques e estruturas heterogêneas.
-- **Java:** orientação a objetos, herança, polimorfismo, exceções, coleções e streams.
-- **Desktop:** interfaces e eventos com Java Swing.
-- **Persistência:** JDBC, HSQLDB e padrão DAO.
-- **Ferramentas:** Git, linha de comando, Lombok, GCC e JDK.
+Os diretórios de disciplinas e listas usam `kebab-case`, sem espaços ou acentos. Classes e
+projetos preservam os nomes das linguagens. Instruções específicas ficam junto ao respectivo
+projeto, como no [Delivery System com HSQLDB](programacao-orientada-a-objetos/lista-08/DeliverySystemGuiAndDB/README.md).
 
 ## Licença
 
 O conteúdo deste repositório está disponível sob a [Licença MIT](LICENSE).
+
+<sub>Organizado por <a href="https://github.com/matrodrigs">Mateus Rodrigues</a>.</sub>
