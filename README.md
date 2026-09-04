@@ -1,3 +1,5 @@
+<img src="logo-unesp.png" alt="Logotipo da UNESP" width="110">
+
 # BCC · UNESP Bauru
 
 <p><samp>Ciência da Computação · Arquivo acadêmico</samp></p>
