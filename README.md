@@ -8,7 +8,7 @@ Exercícios, listas e projetos desenvolvidos durante a graduação na **UNESP, c
 O conteúdo acompanha o estudo de hardware digital, estruturas de dados em C e orientação a
 objetos em Java, incluindo interfaces Swing e persistência com HSQLDB.
 
-[Disciplinas](#disciplinas) · [Projetos em destaque](#projetos-em-destaque) · [Como executar](#como-executar)
+[Disciplinas](#disciplinas) · [Como executar](#como-executar)
 
 ## Disciplinas
 
@@ -39,24 +39,6 @@ Material de apoio: [apostila de POO em Java](programacao-orientada-a-objetos/apo
 | [Lista 06](programacao-orientada-a-objetos/lista-06) | Eventos, calculadoras e editor de texto modular |
 | [Lista 07](programacao-orientada-a-objetos/lista-07) | Evolução do `DeliverySystem` para uma interface Swing |
 | [Lista 08](programacao-orientada-a-objetos/lista-08) | Persistência com HSQLDB, DAO e interface gráfica |
-
-## Projetos em destaque
-
-### Students Manager
-
-Aplicação de terminal para cadastrar, buscar e ordenar alunos por nome, RA e coeficiente de rendimento. O projeto separa ações, modelos e validação de entrada.
-
-[`programacao-orientada-a-objetos/lista-01/StudentsManager`](programacao-orientada-a-objetos/lista-01/StudentsManager)
-
-### Delivery System
-
-Projeto desenvolvido de forma incremental ao longo da disciplina:
-
-1. [Versão de terminal](programacao-orientada-a-objetos/lista-02/DeliverySystem), com clientes, restaurantes, entregadores e pedidos.
-2. [Versão com Java Swing](programacao-orientada-a-objetos/lista-07/DeliverySystemGui), com telas de cadastros e gerenciamento de pedidos.
-3. [Versão com Swing e HSQLDB](programacao-orientada-a-objetos/lista-08/DeliverySystemGuiAndDB), com persistência local e camada DAO.
-
-As instruções completas da versão com banco de dados estão no [README do projeto](programacao-orientada-a-objetos/lista-08/DeliverySystemGuiAndDB/README.md).
 
 ## Como executar
 
