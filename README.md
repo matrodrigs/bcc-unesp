@@ -6,7 +6,7 @@
 
 Exercícios, listas e projetos desenvolvidos durante a graduação na **UNESP, campus de Bauru**.
 O conteúdo acompanha o estudo de hardware digital, estruturas de dados em C e orientação a
-objetos em Java, incluindo interfaces Swing e persistência com HSQLDB.
+objetos em Java, incluindo interfaces Swing, concorrência, redes e persistência com HSQLDB.
 
 [Disciplinas](#disciplinas) · [Como executar](#como-executar)
 
@@ -16,7 +16,7 @@ objetos em Java, incluindo interfaces Swing e persistência com HSQLDB.
 | --- | --- | --- |
 | [Arquitetura de Computadores](arquitetura-de-computadores) | Hardware digital | [Diagrama de computador com 8031](arquitetura-de-computadores/projeto-computador-8031.pdf) |
 | [Estrutura de Dados I](estrutura-de-dados-1) | C | 2 listas, 12 exercícios |
-| [Programação Orientada a Objetos](programacao-orientada-a-objetos) | Java | 8 listas, aplicações de terminal, Swing e persistência |
+| [Programação Orientada a Objetos](programacao-orientada-a-objetos) | Java | 10 listas, aplicações de terminal, Swing, threads, redes e persistência |
 
 ### Estrutura de Dados I
 
@@ -39,6 +39,8 @@ Material de apoio: [apostila de POO em Java](programacao-orientada-a-objetos/apo
 | [Lista 06](programacao-orientada-a-objetos/lista-06) | Eventos, calculadoras e editor de texto modular |
 | [Lista 07](programacao-orientada-a-objetos/lista-07) | Evolução do `DeliverySystem` para uma interface Swing |
 | [Lista 08](programacao-orientada-a-objetos/lista-08) | Persistência com HSQLDB, DAO e interface gráfica |
+| [Lista 09](programacao-orientada-a-objetos/lista-09) | Threads, processamento concorrente e sincronização com Swing |
+| [Lista 10](programacao-orientada-a-objetos/lista-10) | Sockets e jogo da velha cliente-servidor com interface Swing |
 
 ## Como executar
 
