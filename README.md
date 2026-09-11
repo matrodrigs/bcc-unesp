@@ -5,8 +5,8 @@
 <p><samp>Ciência da Computação · Arquivo acadêmico</samp></p>
 
 Exercícios, listas e projetos desenvolvidos durante a graduação na **UNESP, campus de Bauru**.
-O conteúdo acompanha o estudo de hardware digital, estruturas de dados em C e orientação a
-objetos em Java, incluindo interfaces Swing, concorrência, redes e persistência com HSQLDB.
+O conteúdo acompanha o estudo de hardware digital, estruturas de dados em C, lógica formal e
+orientação a objetos em Java, incluindo interfaces Swing, concorrência, redes e persistência com HSQLDB.
 
 [Disciplinas](#disciplinas) · [Como executar](#como-executar)
 
@@ -16,6 +16,7 @@ objetos em Java, incluindo interfaces Swing, concorrência, redes e persistênci
 | --- | --- | --- |
 | [Arquitetura de Computadores](arquitetura-de-computadores) | Hardware digital | [Diagrama de computador com 8031](arquitetura-de-computadores/projeto-computador-8031.pdf) |
 | [Estrutura de Dados I](estrutura-de-dados-1) | C | 2 listas, 12 exercícios |
+| [Lógica Computacional](logica-computacional) | Lógica formal | [Silogismos categóricos](logica-computacional/silogismos-categoricos.pdf) |
 | [Programação Orientada a Objetos](programacao-orientada-a-objetos) | Java | 10 listas, aplicações de terminal, Swing, threads, redes e persistência |
 
 ### Estrutura de Dados I
